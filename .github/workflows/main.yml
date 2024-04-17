@@ -5,7 +5,7 @@ on:
   [push]
 jobs:
   create-docker-image:
-    runs-on: shinsenter/symfony
+    runs-on: shinsenter/symfony:latest
     steps:
       -
         name: Set up QEMU
