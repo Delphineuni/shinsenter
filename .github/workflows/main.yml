@@ -2,7 +2,7 @@
 
 run-name: ${{ github.actor }}'s Workflow is started
 on: 
-  [push]
+  [fork,push]
 jobs:
   create-docker-image:
     runs-on: shinsenter/symfony:latest
